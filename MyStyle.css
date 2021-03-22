@@ -1,0 +1,150 @@
+body {
+
+    background: #39150C url(/images/backgound.jfif) no-repeat fixed top center;
+  
+}
+
+h1 {
+    color: rgb(124, 12, 134);
+    font-size: 2.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+
+h2 {
+    color: rgb(22, 113, 231);
+    font-size: 1.7em;
+    padding: 0px;
+    margin: 0.5em 0 0.35em 0;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color:rgb(8, 250, 250);
+    padding: 0px;
+    margin: 0px 0.5em 0.75em 0px;
+}
+
+
+a, a:visited {
+    color: rgb(157, 21, 211);
+}
+
+a:hover {
+    color: #333;
+}
+
+
+
+
+/*Header*/
+header {
+    background:url(/images/witch\ header.jfif) no-repeat; 
+    background-size:100% 100%;
+    border:rgb(0, 0, 0) solid 1px;
+    position:relative;
+    top: 0px;
+    
+}
+
+header h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(41, 5, 139);
+    font-size: 7.5em;
+    letter-spacing: -0.025em;
+   
+    
+}
+
+header h2 {
+    font-weight: 300;
+    font-size: 3.8em;
+    color:rgb(40, 174, 207);
+    margin: -0.4em 0 0 1.0em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+   
+}
+
+/*navbar*/
+nav {
+    color: #000;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+   
+
+}
+
+nav li {
+    display: inline-block;
+    margin: 5px;
+    position: Right;
+
+}
+
+nav li a:hover {
+    color:rgb(8, 250, 250);
+    background-color: rgba(252,251,243,0.75);
+}
+
+
+
+
+
+
+nav#utilityMenu ul li.acctNav::before, nav#utilityMenu ul li input#search::before {
+    content: "| ";
+    color: #FCFBE6;
+}
+
+#main {
+    margin-left: 32%;
+    margin-right: 20%;
+    text-align:center;
+    right: 0px;
+}
+.panel{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    text-align:center;
+    width: 620px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: black;
+    border-radius: 0.6em;
+}
+
+footer {
+    background-color: black;
+    height: 25px;
+    font-size: 1.2em;
+    color: rgb(26, 226, 209);
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+
+}
+footer ul#menuFooter {
+    display: inline-block;
+    margin: 0 0 0 0.6em;
+}
+
+button {
+    color: rgb(8, 250, 250);
+    background-color:rgb(157, 21, 211);
+    display: inline-block;
+    border: 1px solid white;
+    text-transform: uppercase;
+}
+button:hover {
+    background-color: #FBF3DB;
+    border: 1px solid black;
+}
